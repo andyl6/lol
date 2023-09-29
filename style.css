@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
 body{
-    background:rgb(202, 195, 195);
+    background:rgb(248, 224, 192);
     padding:0;
     margin:0;
-    font-family:Arial;
+    font-family: 'ABeeZee', sans-serif;
 }
 
-#name{
+#myname{
     font-size: 150px;
 }
 .navbar li{
@@ -17,6 +18,9 @@ body{
     padding:0;
     margin:0;
     text-align: center;
+}
+h3{
+    margin-left:20px;
 }
 .navbar a{
     text-decoration:none;
@@ -32,28 +36,30 @@ body{
 }
 
 .navbar a:hover{
-    background:green;
+    background:orange;
 }
 
 p{
     margin-right:100px;
 }
-
-img{
-    display:block;
-    float:right;
-}
 .box{
-    background:#c0b5b5;
-    margin:0;
-    width:1750px;
+    margin-left:10px;
+    width:1000px;
     height:150px;
+    margin-bottom:20px;
+}
+.box h3{
+    margin-left:20px;
 }
 .box p{
     font-size:20px;
+    margin-left:30px;
 }
 .box h2{
     font-size:40px;
+}
+.box li{
+    font-size:20px;
 }
 .header{
     display:flex;
@@ -78,4 +84,43 @@ img{
 }
 .header img{
     opacity:0.5;
+}
+
+img{
+    float:right;
+    margin-left:10px;
+    margin-right:200px;
+    margin-bottom:10px;
+}
+h2{
+    margin-left:10px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight:bold;
+}
+
+th, td {
+    border: 1px solid #f0d1d1;
+    padding: 8px;
+    text-align: left;
+    font-weight:bold;
+}
+
+th {
+    background-color: #f0c3c3;
+    font-weight:bold;
+}
+p{
+    margin-left:30px;
 }

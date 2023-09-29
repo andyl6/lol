@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="header">
-    <h1 id="name">Andy</h1>
+    <h1 id="myname">Andy</h1>
     </div>
     <hr>
     <div class="navbar">
@@ -20,21 +20,62 @@
         <li><a href="spots.html">Spots</a></li>
     </ul>
     </div>
-    <h2>Spots</h2>
-    <div class="box">
-         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-   <!-- <img src="skit.jpg" alt="cat"
-    width="auto"
-    height="200">-->
-    <div class="box"> 
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-    <div class="box">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-    <hr>
-    
+    <h2>Here are some places in NYC that I enjoyed.</h2>
+    <table>
+        <tr>
+            <th>Spot</th>
+            <th>Address</th>
+            
+        </tr>
+        <tr>
+            <td><a href="https://www.meowparlour.com/">Meow Parlour</a>: Cat cafe in Manhattan. Nice place to see cats and relax.</td>
+            <td>46 Hester St, New York, NY 10002</td>
+            
+        </tr>
+        <tr>
+            <td><a href="https://www.softbite.us/menu">Softbite</a>: Cute date place. Presentable dishes like Souffle and salad. Also opens late for drinkers.</td>
+            <td>42-60 Crescent St, Queens, NY 11101</td>
+            
+        </tr>
+        <tr>
+            <td>Little Island: Nice place for sunset view, good food nearby. </td>
+            <td>Pier 55 in Hudson River Park at, W 13th St, New York, NY 10014</td>
+          
+        </tr>
+        <tr>
+            <td><a href="https://newwonjo.com/">New Wonjo</a>: Korean restaurant. Appetizers are good and they give you watermelon if you tip well. Good menu too</td>
+            <td>23 W 32nd St, New York, NY 10001</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.ajisenramennyc.com/">Ajisen Ramen</a>: Multiple locations. I go to the one listed. Super reliable & mad cheap</td>
+            <td>14 Mott St, New York, NY 10013</td>
+        </tr>
+        <tr>
+            <td>Long Island Railroad (LIRR): Not really a place, but it's good to go to places outside of NYC for a good getaway, i.e Round 1 @ Hicksville.</td>
+            <td>Penn Station/Atlantic Ave</td>
+        </tr>
+    </table>
+    <h3>My personal thoughts</h3>
+    <p>NYC is a pretty nice place to go. There's a lot of places to eat, most attractions in my opinion are for tourists. The Edge is an example, but that place is infested with red lantern flies so it's really ugly. I haven't really gone past Times Square but I have been to some nice food spots and whatnot. It's somewhat dangerous at night because that is when most weird people and rats come out (ktown), but it is also quite nice at night. Karaoke, eating out with friends, and Times Square are all nice places in the night. But there are also places like museums and parks if you are that type of person. I personally enjoy drinking so I mostly know places to go out to eat and whatnot. The only real issues are transit problems and that most of the interesting stuff is in Manhattan. But, NY is also near some nice places like American Dream in NJ and Round 1 Arcade a few cities to the right. It's near some colleges too. Other than that, I think NYC is a nice place to visit and has a good amount of things to do.</p>
+    <h1>Send a Message or Recommendation:</h1>
+    <form action="process_form.php" method="POST">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        © Andy
+    </footer>
 </body>
 </html>
 
